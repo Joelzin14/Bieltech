@@ -1,4 +1,4 @@
-        on: push
+on: push
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -14,4 +14,4 @@ jobs:
         server: ${{ secrets.HOST }} 
         username: ${{ secrets.USER }}
         password: ${{ secrets.PASS }}
-        server-dir	: public_html
+        server-dir: public_html
